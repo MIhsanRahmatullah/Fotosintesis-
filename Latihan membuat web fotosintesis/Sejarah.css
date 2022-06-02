@@ -1,0 +1,61 @@
+body{
+    font: 16px/28px arial;
+    background-image: url(3.avif);
+    color:black;
+}
+
+.all{
+    width: 800px;
+    margin: auto;
+    background-color: white;
+}
+
+.header{
+    padding: 20px;
+}
+
+.judul{
+    padding-left:30px;
+    font-size: 25px;
+}
+
+.subJudul ul li{
+    display: inline-block;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-right: 25px;
+}
+
+.subJudul a{
+    color: green;
+}
+
+.subJudul a:hover{
+    color: greenyellow;
+}
+
+
+.gambarUtama{
+    height: 550px;
+    background-image: url(2.avif);
+    background-size: cover;
+    border-top: 10px solid lightblue;
+    border-bottom: 10px solid brown;
+}
+
+.keterangan{
+    padding: 15px 15px;
+}
+
+.judul2 {
+    padding-top: 20px;
+    padding-left: 35px;
+    padding-bottom: 15px;
+    padding-right:
+}
+
+.judul2 .gambarSampingan{
+    height: 500px;
+    background-image: url(s.jpg);
+    background-size: cover;
+}

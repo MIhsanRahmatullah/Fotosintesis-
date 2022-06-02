@@ -1,0 +1,119 @@
+body{
+    font: 16px/28px arial;
+    background-image: url(3.avif);
+    color:black;
+}
+    .all{
+        width: 1000px;
+        margin: auto;
+        background-color: white;
+    }
+        .header{
+            padding: 20px;
+        }
+            .judul{
+                padding-left:30px;
+                font-size: 25px;
+            }
+            .subJudul ul li{
+                display: inline-block;
+                font-size: 20px;
+                margin-top: 10px;
+                margin-right: 25px;
+            }
+                .subJudul a{
+                    color: green;
+                }
+                .subJudul a:hover{
+                    color: greenyellow;
+                }
+
+        .gambarUtama{
+            height: 550px;
+            background-image: url(2.avif);
+            background-size: cover;
+            border-top: 10px solid lightblue;
+            border-bottom: 10px solid brown;
+        }
+
+        .konten {}
+            .konten1 {
+                margin:5px;
+                background-color: rgb(203, 253, 203);
+                padding-top: 20px;
+                padding-left: 35px;
+                padding-bottom: 15px;
+            }
+            .konten2 {
+                margin:5px;
+                background-color: rgb(203, 253, 203);
+                padding-top: 20px;
+                padding-left: 35px;
+                padding-bottom: 15px;
+            }
+            .konten3 {
+                margin:5px;
+                background-color: rgb(203, 253, 203);
+                padding-top: 20px;
+                padding-left: 35px;
+                padding-bottom: 15px;
+            }
+
+        .keterangan{
+            width: 500px;
+            float: left;
+            padding: 15px 15px;
+        }
+
+        .referensi{
+            background-color: rgb(92, 23, 23);
+            margin-top: 15px;
+            margin-right: 15px;
+            width: 425px;
+            float: right;
+            padding-left: 30px; 
+        }
+            .referensi a{
+                color: green;
+            }
+
+            .referensi a:hover{
+                color: greenyellow;
+            }
+    
+    .promosi{
+        background-color: lightskyblue;
+        position: fixed;
+        top:20px;
+        right:0;
+        left: 1150px;
+        margin: 2px;
+        padding: 15px;
+        border: 1px;
+        opacity: 0.9;
+    }
+        .close{
+            width: 30px;
+            height: 30px;
+            background-color: red;
+            top: -15px;
+            left:-15px;
+            border-radius: 50%;
+            position: absolute;
+            border: 1px solid black;
+        }
+/* pembentulan clear fix */
+
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+.cf {
+    *zoom: 1;
+}
